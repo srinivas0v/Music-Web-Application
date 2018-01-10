@@ -1,2 +1,3 @@
 # Music-Web-Application
 Last.Fm web API
+In this project, I developed a web application to get information about music artists, their albums, etc. This application is developed using plain JavaScript and Ajax. The Ajax requests return JSON, not XML. Everything is done asynchronously and the web page is never be redrawn/refreshed completely. The application has a text window where one can type the artist name (eg, The Beatles). It displays the artist name, a link to the Last.fm web page of the artist, information about the artist (including a long biography), their picture (large), a list of their top albums (titles & pictures), and a list of names of similar artists.

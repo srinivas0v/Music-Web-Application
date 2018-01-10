@@ -3,7 +3,7 @@ function initialize(){
 
 }
 
-var api_key = "b24bb40a1e49614c6fc31f450ec12ea4";
+var api_key = "######################";
 
 
 function sendRequest () {

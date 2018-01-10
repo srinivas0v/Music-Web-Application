@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Student Name:   -->
+<html lang="en">
+  <head>
+    <title>A Music Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="music.js"></script>
+    <style>
+div.scroll {
+    width: 800px;
+    height: 350px;
+    overflow: scroll;
+}
+</style>
+  </head>
+  <body onload="initialize();">
+    <h4>Music Application</h4>
+    <form id="form">
+       <label>Artist name: <input type="text" id="form-input"/></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form>
+
+    <div id="name">&nbsp;</div>
+    <img id="artist_Img" >
+    <br/>
+    <a id="link">&nbsp;</a>
+    <dl id="description">
+    </dl>
+    <br/><br/>
+    <div id="albums"  >&nbsp;</div>
+    <br/><br/>
+    <div  id="output">&nbsp;</div>
+    <!--<div id="summary">&nbsp;</div>
+    <div id="content">&nbsp;</div>-->
+  </body>
+</html>
